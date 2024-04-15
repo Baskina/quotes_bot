@@ -1,7 +1,4 @@
 from mongoengine import connect
-from pymongo.server_api import ServerApi
-
-uri = "mongodb+srv://baskinadevelopment:5fQLW8GKlk87ARN6@cluster0.upbkmny.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Create a new client and connect to the server
 client = connect(
